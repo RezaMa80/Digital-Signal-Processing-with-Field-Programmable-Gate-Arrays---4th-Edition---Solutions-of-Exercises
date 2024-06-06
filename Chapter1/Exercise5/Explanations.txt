@@ -1,0 +1,2 @@
+For 20ns, compiler used memory blocks but for other speeds, it used logic elements instead.
+By decreasing clock period, value of slack decreased and for 3ns its value became negative.
