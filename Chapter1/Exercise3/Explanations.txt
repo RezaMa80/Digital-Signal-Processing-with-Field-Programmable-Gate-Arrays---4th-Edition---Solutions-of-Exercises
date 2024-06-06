@@ -1,0 +1,8 @@
+At rising edge of clock:
+    sum = op1 + b
+
+if reset == 1:
+    d = 0
+else:
+    At rising edge of clock:
+        d = d + a + b
