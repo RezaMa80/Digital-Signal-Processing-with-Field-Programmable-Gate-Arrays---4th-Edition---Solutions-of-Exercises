@@ -1,0 +1,4 @@
+In Balanced and Area optimization the results are the same. This may be due to the use of memory blocks in both optimizations.
+In other words, in the Balance optimization, the compiler decided to use memory blocks and this limits the clock speed.
+
+In Speed optimization instead of using memory, registers were used, which increased the clock speed.
