@@ -20,12 +20,17 @@ BEGIN
 	sum <= sum_r(WIDTH-1 downto 0);
 	
 	process (clk)
+		variable a_r_resizedL1
 	begin
 		if (rising_edge(clk)) then
 			a_r <= a;
 			b_r <= b;
 			
-			sum_r <= std_logic_vector(unsigned('0' & a_r) + unsigned(b_r));
+			sum_r <= 
+				std_logic_vector(
+					resize(unsigned(a_r), a_r'LENGTH+1) + 
+					unsigned(b_r)
+				);
 		end if;
 	end process;
 END fpga;
