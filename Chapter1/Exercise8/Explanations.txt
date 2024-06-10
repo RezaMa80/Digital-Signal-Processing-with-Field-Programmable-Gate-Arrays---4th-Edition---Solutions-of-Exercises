@@ -1,0 +1,4 @@
+The number of logic elements are the same in all optimizations but in Speed optimization Fmax is higher, so the optimal option is Speed.
+In both one instantiation and maximized instantiation designs only logic elements are used and no multipliers and memory blocks are used.
+In both designs, for each instantiation 16 registers are used but number of logic elements per instantiation in maximized design is lower.
+By maximizing the number of instantiations Fmax decreased drastically.
