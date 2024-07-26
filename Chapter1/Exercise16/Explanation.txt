@@ -1,0 +1,16 @@
+1) N
+2) N
+3) Y: "PORTS" is wrong, must be "PORT"
+4) N
+5) Y: Correct code is: END error;
+6) Y: Correct code is: ARCHITECTURE has OF error IS
+7) Y: Correct code is: SIGNAL s , w : BIT;
+8) N
+9) Y: Correct code is: w <= c;
+10) N
+11) N
+12) N
+13) N
+14) Y: Reading an output is wrong, Writing an input is wrong, Assigning an integer to a bit is wrong
+15) Y: IF block must be closed befor closing the PROCESS block
+16) Y: Correct code is: END has;
