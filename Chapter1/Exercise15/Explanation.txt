@@ -1,0 +1,5 @@
+ceil(log_2((RIGHT-LEFT)+1))
+a) 4
+b) 7
+c) 3
+d) 5
