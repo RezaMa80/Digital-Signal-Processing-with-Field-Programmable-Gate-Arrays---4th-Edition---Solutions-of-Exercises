@@ -1,9 +1,9 @@
-a) VHSIC: True
-b) h333: True
-c) A_B_C: True
-d) XyZ: True
-e) N#3: False
-f) My-name: False
-g) BEGIN: False
-h) A_ _B: False
-i) ENTITI: True
+a) True
+b) True
+c) True
+d) True
+e) False
+f) False
+g) False
+h) False
+i) True
