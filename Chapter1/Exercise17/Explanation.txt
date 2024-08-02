@@ -18,6 +18,6 @@
 18) Port of components must be on the left and signal must be on the right, "clock" and "clk" must be swapped
 19) Port of components must be on the left and signal must be on the right, "d" and "b(j-1)" must be swapped
 20) N
-21) End of a Generate block must be with it's own lable, so "d1" must be "g1"
+21) End of a Generate block must be with its own label, so "d1" must be "g1"
 22) Last bit of signal "b" is width-1 not width
 23) N
