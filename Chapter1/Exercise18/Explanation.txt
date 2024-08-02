@@ -1,0 +1,23 @@
+Process P0:
+a) Inputs: a, b, c, d - Outputs: u
+Three adder in series, first adder for a+b, second one for subtracting c and last one for adding d
+b) 3
+c) a to u - 3
+
+Process P1:
+a) Inputs: a, b, c, d - Outputs: v
+Three adder, two of them in parallel, first adder for a+b, second one for c-d and last one for subtracting a+b from c-d
+b) 3
+c) Every input to v - 2
+
+Process P2:
+a) Inputs: a, b, c - Outputs: w, x
+Two adder in series for each output, for w, first adder for a+b and second one for adding c, for x, first adder for a-b and second one for subtracting c
+b) 4
+c) a and b to every output - 2
+
+Process P3:
+a) Inputs: a, b, c - Outputs: y, z
+One common adder used in both outputs and one another adder for each output, first one for b+c, another one for y, for adding a, another one for z, for subtracting b+c from a
+b) 3
+c) b and c to every output - 2
