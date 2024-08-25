@@ -1,0 +1,32 @@
+Process P0:
+Circuit type: D-flip-flop
+a is clock
+
+combinational, latch, D-flip-flop, or T-flip-flop
+clock, a-synchronous set (AS) or reset (AR) or synchronous set (SS) or reset
+(SR)
+
+Process P1:
+Circuit type: Combinational
+a is AS
+
+Process P2:
+Circuit type: D-flip-flop
+a is AR
+b is clock
+c is SS
+
+Process P3:
+Circuit type: T-flip-flop
+a is AS
+b is clock
+c is SR
+
+Process P4:
+Circuit type: Latch
+a is AS
+
+Process P5:
+Circuit type: D-flip-flop
+a is clock
+b is SR
